@@ -5,8 +5,11 @@ import * as routes from '../../constants/routes';
 const Header = () => {
   return (
     <header>
+    <div className='navbar'>
+      <p><Link to={routes.SIGN_UP}>Sign Up</Link></p>
+    </div>
       <h1>
-        <code>React Redux Firebase Auth</code>
+        <code>Welcome</code>
       </h1>
       <nav>
         <ul>

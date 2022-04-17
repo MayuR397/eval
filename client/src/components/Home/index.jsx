@@ -22,7 +22,7 @@ const Home = ({ user }) => {
                   .map((el) => {
                     return (
                       <div className="teacherData-container" key={el._id}>
-                        <img src={el.image} alt="teacher image" />
+                        <img src={el.image} alt="teacher" />
                         <div className="teacherData-details">
                           <h3>Teacher Name:-{el.name}</h3>
                           <p>Age:-{el.age}</p>
